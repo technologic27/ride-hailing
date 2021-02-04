@@ -25,16 +25,6 @@ endif
 setup:
 	$ pip3 install virtualenv
 	$ virtualenv driver-allocation
-	$(PYTHON_INTERPRETER) . driver-allocation/bin/activate
-	$(PYTHON_INTERPRETER) sudo pip3 install -r requirements.txt
-
-
-.PHONY: run
-run: driver-allocation/bin/activate
-	$ source driver-allocation/bin/activate
-
-activate:
-	$ set -a && . driver-allocation/bin/activate && set +a
 
 ## Make Dataset
 data:
