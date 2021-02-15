@@ -97,7 +97,7 @@ The raw data is submitted with the project found in the data/raw directory
 
 Data Details
 ---
-Raw data is found in `data/raw`. Cleaned for the interim data is found in `data\interim` and data used for metric generatio and modelling is found in `data/processed`. Only need to run `make data` once to generate the data. If the data has been generated, skip `make data` step.
+Raw data is found in `data/raw`. Cleaned for the interim data is found in `data/interim` and data used for metric generatio and modelling is found in `data/processed`. Only need to run `make data` once to generate the data. If the data has been generated, skip `make data` step.
 
 
 ### Todos
