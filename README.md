@@ -1,13 +1,8 @@
 # Driver Allocation
 ==============================
 
-Gojek's data science take home exam.
-
-Submission guidelines:
-
   1. Analyze allocation experiments
   2. Build and evaluate an ML model
-  3. Submit code
 
 # Open Source Libraries
 
@@ -19,7 +14,7 @@ This project relies on a number of open source libraries/APIs. Why reinvent the 
 
 # Installation
 
-Requires Python3.+ to run.
+Requires Python3.+ and virtual environment to run.
 
 Change directory to the project directory.
 
